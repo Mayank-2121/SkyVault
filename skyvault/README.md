@@ -47,7 +47,7 @@ SkyVault is a cloud-based file storage solution designed for secure, efficient, 
 ### Project Overview
 
 ## Control Flow Diagram
-<img width="860" height="1000" alt="image" src="https://github.com/user-attachments/assets/be5b14b5-b031-4ed7-9c2a-f5ca16ca168c" /><br><br>
+<!-- <img width="860" height="1000" alt="image" src="https://github.com/user-attachments/assets/be5b14b5-b031-4ed7-9c2a-f5ca16ca168c" /><br><br>
 <img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/364ae9c8-545f-497e-a014-3ea13cf26d71" /><br><br>
 <img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/bcbcd880-9dac-4485-bb30-edc93e1a85ae" /><br><br>
 <img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/74fa9ffe-95a4-4fa8-b5ae-ede947d0d2e2" /><br><br>
@@ -61,7 +61,7 @@ SkyVault is a cloud-based file storage solution designed for secure, efficient, 
 <img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/097f44ef-84cd-4bed-afee-09ed59a4cbdc" /><br><br>
 <img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/345e44da-d948-46c2-aa8b-4d3426aa670e" /><br><br>
 <img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/038c83a1-e6bc-4748-abde-460d41dd1cf6" /><br><br>
-<img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/3129c224-3faf-4c1e-9ed7-f9d053527f07" /><br><br>
+<img width="860" height="510" alt="image" src="https://github.com/user-attachments/assets/3129c224-3faf-4c1e-9ed7-f9d053527f07" /><br><br> -->
 
 ## ⚙️ How to Use SkyVault on Another System
 
@@ -82,7 +82,7 @@ Ensure the following are installed:
 
 ### 📦 2. Clone the Repository
 
-git clone https://github.com/Dartpixel/skyvault.git
+git clone https://github.com/Mayank-2121/SkyVault.git
 
 cd skyvault
 
@@ -134,6 +134,7 @@ Developer | Tech Enthusiast
 📧 Reach me on [LinkedIn](https://linkedin.com/in/mayank-kumar2121)
 
 ---
+
 
 
 
