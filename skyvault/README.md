@@ -119,8 +119,8 @@ npm start and npm run dev
 
 We welcome contributions and suggestions. Feel free to:
 
-- 📌 [Submit a pull request](https://github.com/Dartpixel/skyvault/pulls)
-- 🐞 [Create an issue](https://github.com/Dartpixel/skyvault/issues)
+- 📌 [Submit a pull request](https://github.com/Mayank-2121/SkyVault/pulls)
+- 🐞 [Create an issue](https://github.com/Mayank-2121/SkyVault/issues)
 - 💬 Share feedback directly through the app’s feedback form
 
 Your input helps us improve SkyVault continuously!
@@ -129,11 +129,12 @@ Your input helps us improve SkyVault continuously!
 
 ## 🧑‍💻 Author
 
-**Kartik Sharma**  
+**Mayank Kumar**  
 Developer | Tech Enthusiast
-📧 Reach me on [LinkedIn](https://www.linkedin.com/in/kartiksharma2004/)
+📧 Reach me on [LinkedIn](https://linkedin.com/in/mayank-kumar2121)
 
 ---
+
 
 
 
