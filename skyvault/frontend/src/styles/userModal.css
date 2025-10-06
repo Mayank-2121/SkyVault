@@ -1,0 +1,137 @@
+/* userModal.css */
+
+.modal-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+}
+
+.modal-content {
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 12px;
+	max-width: 900px;
+	width: 90%;
+	max-height: 90vh;
+	overflow-y: auto;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+
+.modal-close-button {
+	background: none;
+	border: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	color: #888;
+	transition: color 0.3s;
+}
+
+.modal-close-button:hover {
+	color: #333;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+	color: #333;
+	text-align: center;
+}
+
+.modal-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	font-size: 15px;
+	color: black;
+}
+
+.modal-table th,
+.modal-table td {
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+.modal-table th {
+	background-color: #f5f5f5;
+	font-weight: 600;
+	color: #444;
+}
+
+.modal-table tbody tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.modal-table button {
+	padding: 6px 10px;
+	font-size: 14px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+#delete {
+	background-color: red;
+	color: white;
+}
+
+#download {
+	background-color: #0056b3;
+	color: white;
+}
+
+.modal-table button:hover {
+	background-color: #45a049;
+}
+
+p {
+	margin-top: 10px;
+	font-style: italic;
+	color: #666;
+	text-align: center;
+}
+
+.user-modal {
+	z-index: 9999;
+	display: block !important;
+	position: fixed;
+	top: 50% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%);
+}
+
+.feedback-box {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.feedback-box button {
+	padding: 6px 10px;
+	font-size: 14px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.feedback-box button:hover {
+	background-color: rgb(237, 56, 56);
+}

@@ -1,0 +1,291 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	background-color: #f8f9fa;
+	color: #333;
+}
+
+.header {
+	background-color: #ffffff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.header-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+}
+
+.logo-text {
+	font-size: 1.8rem;
+	font-weight: 900;
+	color: #2d46b9;
+}
+
+.nav-menu {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.nav-menu a {
+	color: #333;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 700;
+	transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+	transform: translateY(-2px);
+	color: rgb(125, 122, 122);
+}
+
+.auth-buttons {
+	display: flex;
+	gap: 1rem;
+}
+
+.login-btn,
+.signup-btn {
+	padding: 0.5rem 1.5rem;
+	border-radius: 50px;
+	font-weight: 700;
+	transition: all 0.3s ease;
+}
+
+.login-btn {
+	color: #2d46b9;
+	border: 2px solid #2d46b9;
+}
+
+.signup-btn {
+	background-color: #2d46b9;
+	color: #ffffff;
+}
+
+.hero-section {
+	padding: 8rem 2rem 4rem;
+	background: linear-gradient(135deg, #2d46b9, #6c63ff);
+	color: #ffffff;
+}
+
+.hero-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.hero-content h1 {
+	font-size: 3.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.hero-buttons {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin: 2rem 0;
+}
+
+.primary-btn,
+.secondary-btn {
+	padding: 1rem 2rem;
+	border-radius: 50px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.primary-btn {
+	background-color: #ffffff;
+	color: #2d46b9;
+}
+
+.secondary-btn {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+
+.stats-container {
+	display: flex;
+	justify-content: center;
+	gap: 4rem;
+	margin-top: 4rem;
+}
+
+.stat-item {
+	text-align: center;
+}
+
+.stat-item p {
+	color: black;
+}
+
+.stat-item h3 {
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+.features-section {
+	padding: 6rem 2rem;
+	background-color: #ffffff;
+}
+
+.features-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+	max-width: 1200px;
+	margin: 3rem auto 0;
+}
+
+.feature-card {
+	padding: 2rem;
+	text-align: center;
+	background-color: #f8f9fa;
+	border-radius: 20px;
+	transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+	transform: translateY(-10px);
+}
+
+.feature-icon {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.contact-section {
+	padding: 6rem 2rem;
+	background-color: #1a1a1a;
+	color: #ffffff;
+	text-align: center;
+}
+
+.contact-btn {
+	display: inline-block;
+	padding: 1rem 2rem;
+	background-color: #6c63ff;
+	color: #ffffff;
+	border-radius: 50px;
+	margin-top: 2rem;
+	transition: all 0.3s ease;
+}
+
+.login-btn:hover,
+.signup-btn:hover,
+.primary-btn:hover,
+.secondary-btn:hover,
+.contact-btn:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+	.nav-menu {
+		display: none;
+	}
+
+	.hero-content h1 {
+		font-size: 2.5rem;
+	}
+
+	.stats-container {
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
+
+.footer {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	padding: 3rem 0 1rem;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* home.css */
+.footer-wrapper {
+	.footer-wrapper {
+		max-width: 1200px; /* Set max-width directly */
+		margin: 0 auto; /* Center the footer */
+		padding: 0 2rem; /* Keep the padding */
+	}
+}
+
+.footer-top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid #333;
+	padding-bottom: 2rem;
+	margin-bottom: 1rem;
+}
+
+.footer-brand {
+	flex: 1 1 300px;
+}
+
+.footer-brand h3 {
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	color: #4da6ff;
+}
+
+.footer-links {
+	display: flex;
+	flex: 2 1 500px;
+	justify-content: space-around;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+
+.footer-links h4 {
+	margin-bottom: 0.5rem;
+	font-size: 1.1rem;
+}
+
+.footer-links a {
+	display: block;
+	color: #ccc;
+	text-decoration: none;
+	margin-bottom: 0.3rem;
+	transition: color 0.3s;
+}
+
+.footer-links a:hover {
+	color: #ffffff;
+}
+
+.footer-bottom {
+	text-align: center;
+	font-size: 0.9rem;
+	color: #888;
+}
+
+.black {
+	color: black;
+}
+
+.white {
+	color: white;
+}

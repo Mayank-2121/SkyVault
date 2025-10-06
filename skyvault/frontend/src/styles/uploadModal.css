@@ -1,0 +1,220 @@
+/* Modal background with blur effect */
+.blur-background {
+	filter: blur(5px);
+	overflow: hidden; /* Prevent scrolling when modal is open */
+}
+
+.modal-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-content {
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	width: 400px;
+	position: relative;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.modal-heading {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+
+.overlay-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+.file-title {
+	text-align: center;
+	margin-top: 10px;
+	color: #333;
+	font-weight: bold;
+}
+.modal-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+	backdrop-filter: blur(5px); /* Blur effect for the background */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999; /* Ensure it appears above all other elements */
+}
+
+/* Modal content styling */
+.modal-content {
+	background: #ffffff; /* White background */
+	border-radius: 10px; /* Rounded corners */
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+	max-width: 500px; /* Maximum width */
+	width: 90%; /* Responsive width */
+	padding: 20px; /* Internal spacing */
+	position: relative; /* For positioning the close button */
+	text-align: center; /* Center-align content */
+	animation: fadeIn 0.3s ease-out; /* Fade-in animation */
+}
+
+/* Close button styling */
+.modal-close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none; /* No background */
+	border: none; /* No border */
+	cursor: pointer; /* Pointer cursor */
+	font-size: 20px; /* Adjust size */
+	color: #333; /* Icon color */
+	transition: transform 0.2s ease; /* Add smooth hover effect */
+}
+
+/* Form upload icon styling */
+form svg {
+	margin-top: 20px; /* Space above the icon */
+	font-size: 40px; /* Adjust icon size */
+	color: #6c757d; /* Gray color for the icon */
+}
+
+/* Heading styling */
+h1 {
+	font-size: 1.5rem; /* Font size for heading */
+	font-weight: 600; /* Semi-bold text */
+	color: #333; /* Dark gray color */
+	margin-bottom: 20px; /* Space below heading */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+/* File upload form styling */
+.upload-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px; /* Space between elements */
+}
+
+/* File upload label styling */
+.file-upload-label {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 2px dashed #6c757d; /* Dashed border for upload area */
+	border-radius: 10px;
+	padding: 20px;
+	width: 100%; /* Full width */
+	max-width: 400px; /* Limit width */
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	text-align: center;
+	color: #6c757d; /* Text and icon color */
+}
+
+.file-upload-label:hover {
+	background-color: #f8f9fa; /* Light background on hover */
+}
+
+/* File input (hidden) */
+.file-input {
+	display: none; /* Hide the default file input */
+}
+
+/* Upload text */
+.file-upload-label p {
+	margin-top: 10px; /* Space above text */
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.submit-button:hover {
+	background-color: #6c63ff;
+}
+
+.progress-bar {
+	margin-top: 20px;
+	height: 10px;
+	width: 100%;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.progress {
+	height: 100%;
+	background-color: #4caf50;
+	transition: width 0.2s;
+}
+
+.file-title-input,
+.file-description-input {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.submit-button {
+	background-color: #2d46b9;
+	color: #fff;
+	border: none;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.upload-step {
+	border: 2px dashed #ccc;
+	padding: 20px;
+	text-align: center;
+	transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.upload-step.drag-active {
+	background-color: #f0f8ff;
+	border-color: #00aaff;
+}
